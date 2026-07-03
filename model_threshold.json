@@ -1,0 +1,8 @@
+{
+  "threshold": 0.5,
+  "threshold_event": "UnableWalking=1: 丧失行走能力 / 不能独立行走",
+  "threshold_rule": "Predicted probability >= 0.50 is classified as high risk of loss of walking ability.",
+  "positive_event": "UnableWalking=1: 丧失行走能力 / 不能独立行走",
+  "negative_event": "UnableWalking=0: 恢复行走能力",
+  "note": "该阈值为默认展示阈值。论文或临床应用中可根据Youden指数、敏感度优先或临床净获益重新设定。"
+}
